@@ -57,11 +57,6 @@ body:
     validations:
       required: true
 
-- type: markdown
-    attributes:
-      value: |
-        Include code snippets in triple backticks for better readability. Here's an example
-
   - type: checkboxes
     attributes:
       label: Please confirm (incomplete submissions will not be addressed)
