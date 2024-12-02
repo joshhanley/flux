@@ -57,10 +57,14 @@ body:
     validations:
       required: true
 
-- type: markdown
-    attributes:
-      value: |
-        Include code snippets in triple backticks for better readability. Here's an example
+  - type: markdown
+      attributes:
+        value: |
+          Include code snippets in triple backticks (\```) for better readability. Here's an example:
+
+          \```blade
+          // Your code here
+          \```
 
   - type: checkboxes
     attributes:
