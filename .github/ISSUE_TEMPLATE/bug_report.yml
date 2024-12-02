@@ -66,17 +66,6 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    attributes:
-      label: Please confirm (incomplete submissions will not be addressed)
-      options:
-        - label: I have provided easy and step-by-step instructions to reproduce the bug.
-          required: true
-        - label: I have provided code samples as text and NOT images.
-          required: true
-        - label: I understand my bug report will be closed if I haven't met the criteria above.
-          required: true
-
   - type: markdown
     attributes:
       value: |
@@ -87,3 +76,14 @@ body:
         * The issue is a duplicate
 
         Thank you!
+
+  - type: checkboxes
+    attributes:
+      label: Please confirm (incomplete submissions will not be addressed)
+      options:
+        - label: I have provided easy and step-by-step instructions to reproduce the bug.
+          required: true
+        - label: I have provided code samples as text and NOT images.
+          required: true
+        - label: I understand my bug report will be closed if I haven't met the criteria above.
+          required: true
