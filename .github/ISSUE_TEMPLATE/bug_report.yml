@@ -45,13 +45,6 @@ body:
 
   - type: textarea
     attributes:
-      label: How do you expect it to work?
-      description: Please describe how you expect it to work.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
       label: Code snippets
       description: Please include a code snippet (ideally a Volt component) we can copy and paste into our own apps with steps to reproduce. Be sure to **include any Blade variable definitions** that are used and use as little code as possible to reproduce the issue.
     validations:
@@ -65,6 +58,13 @@ body:
         \```blade
         // Your code here
         \```
+
+  - type: textarea
+    attributes:
+      label: How do you expect it to work?
+      description: Please describe how you expect it to work.
+    validations:
+      required: true
 
   - type: checkboxes
     attributes:
