@@ -60,11 +60,7 @@ body:
   - type: markdown
       attributes:
         value: |
-          Include code snippets in triple backticks (\`\`\`) for better readability. Here's an example:
-
-          \`\`\`blade
-          // Your code here
-          \`\`\`
+          Include code snippets in triple backticks for better readability. Here's an example
 
   - type: checkboxes
     attributes:
