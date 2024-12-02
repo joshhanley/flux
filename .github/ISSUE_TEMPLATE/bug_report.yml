@@ -87,3 +87,7 @@ body:
           required: true
         - label: I understand my bug report will be closed if I haven't met the criteria above.
           required: true
+
+  - type: markdown
+    attributes:
+      value: Thank you!
