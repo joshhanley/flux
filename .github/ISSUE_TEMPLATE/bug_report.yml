@@ -75,8 +75,6 @@ body:
         * We cannot reproduce the issue with the provided code snippets
         * The issue is a duplicate
 
-        Thank you!
-
   - type: checkboxes
     attributes:
       label: Please confirm (incomplete submissions will not be addressed)
